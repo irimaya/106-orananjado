@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 { 
+  font-size: 2.5rem; 
+  color: #fff;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.large { font-size: 1.25rem; }
+
+.display-1 { font-size: 6rem; }
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 32px;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-dark {
+  background: #EE8731;
+  border: 1px solid #EE8731;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background: #fff;
+  border: 1px solid #4d4d4d;
+  color: #4d4d4d;
+}
+
+.btn-light {
+  background: #EFF0F8;
+  border: 1px solid #EFF0F8;
+  color: #000;
+}
+
+.btn-light:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #EFF0F8;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+/* Navbar */
+#navbar {
+  background: #EE8731;
+  color: #000;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 27px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* Showcase */
+#showcase {
+  background: #EE8731;
+  padding: 90px 0;
+}
+
+.showcase-img {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.showcase-img img {
+  width: 100%;
+}
+
+.showcase-text {
+  float: right;
+  width: 50%;
+}
+
+.showcase-text h1 {
+  padding-top: 30px;
+}
+
+.showcase-text p.large {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.showcase-text p.body-text {
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Feature */
+#feature {
+  padding: 90px 0;
+}
+
+#feature p {
+  font-weight: 900;
+  font-size: 56px;
+}
+
+#feature p:last-child {
+  color: #EE8731;
+  padding: 40px 0;
+}
+
+/* Contact */
+#contact {
+  background: #000;
+  color: #fff;
+  padding: 150px 0 80px 0;
+}
+
+#contact form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Footer */
+#mainfooter {
+  background: #000;
+  text-align: center;
+  padding:30px;
+}
